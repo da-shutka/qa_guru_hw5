@@ -30,7 +30,7 @@ public class DragAndDropTest {
     }
 
     @Test
-    void dragAndDropRectangleWithAction() {
+    void dragAndDropRectangleWithActions() {
         open("/drag_and_drop");
         $("#column-a").shouldHave(text("A"));
         $("#column-b").shouldHave(text("B"));
